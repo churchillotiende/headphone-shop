@@ -32,7 +32,9 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 6px 18px;
-  position: relative;
+  position: sticky;
+  z-index: 100;
+  top:0;
 }
 .marquee-text{
   font-size: 29px;
@@ -68,7 +70,8 @@ width: 100%;
 }
 .logo{
   color: gray;
-  font-size: 18px;
+  font-size: 20px;
+  text-decoration: double;
 
 }
 .cart-icon{
